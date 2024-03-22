@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Analysis</title>
+</head>
+<style>
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background-color: #f9f9f9;
+    }
+    h1 {
+        text-align: center;
+    }
+    form {
+        margin-bottom: 20px;
+    }
+    input[type="text"] {
+            height: 80px;/* Set the desired height here */
+            vertical-align: initial;
+        }
+</style>
+<body>
+    <div class="container">
+        <h1>Welcome to Product Review Analysis</h1>
+        <form action="/" method="POST">
+            <label for="Review">Enter your Review:</label><br>
+            <input type="field" id="Review" name="Review" required size = "80"><br><br>
+            
+        </form>
+        <form action="/prediction" method="POST">
+            <h2>Prediction</h2>
+            <button type="submit">Click to Analysis</button>
+        </form>
+
+    </div>
+</body>
+</html>
